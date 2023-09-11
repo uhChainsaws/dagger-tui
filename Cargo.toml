@@ -1,0 +1,12 @@
+[package]
+name = "dagger-tui"
+version = "0.1.0"
+authors = ["NotImportant0 <kotkot1247@gmail.com>"]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.26.1"
+rand = "0.8.5"
+sysinfo = "0.29.10"
+tui = { package = "ratatui", version = "0.21.0" }
